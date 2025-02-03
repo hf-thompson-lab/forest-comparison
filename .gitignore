@@ -1,0 +1,7 @@
+.Rproj.user
+.Rdata
+.Rhistory
+.Rbuildignore
+*.html
+calculate-CONUS-forest-area-FIA.R
+data/raw-data/shapefile/

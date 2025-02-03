@@ -32,7 +32,7 @@ the data for the figure created in ArcGIS Pro.
 ## Content
 
 This project is structured as follows:
-
+```
 .
 |
 ├─ forest_comparison.Rproj                               # RStudio project file
@@ -104,6 +104,7 @@ This project is structured as follows:
 |  └─ save_trend_summary_table.R                         # Saves table of summary of linear models
 |
 └─ make.R                                                # Script to setup & run the project
+```
 
 ## Installation
 
@@ -122,4 +123,4 @@ analyses.
 
 ## Citation
 
-Lee, L.G., and Morreale, L. L. 2025. Comparison shopper's guide to forest datasets analysis code v1.0. [LINK]
+Lee, L.G., and Morreale, L. L. 2025. Comparison shopper's guide to forest datasets analysis code v1.0. https://github.com/hf-thompson-lab/forest-comparison
