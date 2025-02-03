@@ -1,0 +1,875 @@
+<?xml-stylesheet href='C:\LSP Program Files\Metavist_2021\XML\NBII_classic.xsl' type='text/xsl'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Walters, Brian F.</origin>
+        <origin>Domke, Grant M.</origin>
+        <origin>Greenfield, Eric J.</origin>
+        <origin>Smith, James E.</origin>
+        <origin>Ogle, Stephen M.</origin>
+        <pubdate>2023</pubdate>
+        <title>Greenhouse gas emissions and removals from forest land, woodlands, and urban trees in the United States, 1990-2021: Estimates and quantitative uncertainty for individual states, regional ownership groups, and National Forest System regions</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Fort Collins, CO</pubplace>
+          <publish>Forest Service Research Data Archive</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.2737/RDS-2023-0020</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>As a signatory to the United Nations Framework Convention on Climate Change (UNFCCC), the United States has been reporting an economy-wide inventory of greenhouse gas (GHG) emissions and removals since the mid-1990s. Estimates of GHG emissions and removals from forest land, woodlands in the grassland category, and urban trees in settlements are compiled by U.S. Department of Agriculture (USDA) Forest Service researchers and are based primarily on National Forest Inventory (NFI) data collected and maintained by the Forest Inventory and Analysis (FIA) program within the USDA Forest Service. The estimates of GHG emissions and removals provided in this publication are based on the compilation reported in the Land Use, Land-Use Change, and Forestry chapter of the U.S. Environmental Protection Agency (EPA) submission to the UNFCCC. Included in this package are 18 tables of estimates and 2 tables of quantitative uncertainties.</abstract>
+      <purpose>These estimates are being provided in this format to make them more accessible for use in sub-national reporting or further analysis.</purpose>
+      <supplinf>For more information about these data, see Domke et al. (2023). For information regarding the EPA submission to the UNFCCC, see U.S. EPA (2023).
+
+	  
+These data were published on 04/14/2023. On 07/24/2023 minor changes were made to the metadata to update out of date URLs.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1990</begdate>
+          <enddate>2022</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <eastbc>-66</eastbc>
+        <westbc>172</westbc>
+        <northbc>72</northbc>
+        <southbc>18</southbc>
+      </bounding>
+      <descgeog>conterminous United States, Hawaii, and Alaska</descgeog>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>National Research &amp; Development Taxonomy</themekt>
+        <themekey>Climate change</themekey>
+        <themekey>Carbon</themekey>
+        <themekey>Ecology, Ecosystems, &amp; Environment</themekey>
+        <themekey>Fire</themekey>
+        <themekey>Inventory, Monitoring, &amp; Analysis</themekey>
+        <themekey>Monitoring</themekey>
+        <themekey>Resource inventory</themekey>
+        <themekey>Natural Resource Management &amp; Use</themekey>
+        <themekey>Ecosystem services</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>greenhouse gas </themekey>
+        <themekey>emissions and removals</themekey>
+        <themekey>carbon stocks</themekey>
+        <themekey>carbon net flux</themekey>
+        <themekey>forest carbon</themekey>
+        <themekey>woodland carbon</themekey>
+        <themekey>land use</themekey>
+        <themekey>land use change</themekey>
+        <themekey>drained organic soils</themekey>
+        <themekey>settlement trees</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>conterminous United States</placekey>
+        <placekey>Hawaii</placekey>
+        <placekey>Alaska</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use the following citation: 
+
+Walters, Brian F.; Domke, Grant M.; Greenfield, Eric J.; Smith, James E.; Ogle, Stephen M. 2023. Greenhouse gas emissions and removals from forest land, woodlands, and urban trees in the United States, 1990-2021: Estimates and quantitative uncertainty for individual states, regional ownership groups, and National Forest System regions. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2023-0020</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Northern Research Station, Forest Inventory and Analysis Program</cntorg>
+          <cntper>Brian Walters</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1992 Folwell Ave.</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55108</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>651-649-5135</cntvoice>
+        <cntpos>Forester</cntpos>
+        <cntemail>brian.f.walters@usda.gov</cntemail>
+        <cntinst>This contact information was current as original publication date. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This project was funded by the USDA Forest Service, Northern Research Station, Forest Inventory and Analysis Program as well as U.S. Environmental Protection Agency Climate Change Division.
+	
+	
+Author Information:
+
+Brian F. Walters
+USDA Forest Service, Northern Research Station
+https://orcid.org/0000-0001-7408-9704
+
+Grant M. Domke
+USDA Forest Service, Northern Research Station
+https://orcid.org/0000-0003-0485-0355
+
+Eric J. Greenfield
+USDA Forest Service, Northern Research Station
+https://orcid.org/0000-0001-5090-6351
+
+James E. Smith
+USDA Forest Service, Northern Research Station
+
+Stephen M. Ogle
+Colorado State University
+https://orcid.org/0000-0003-1899-7446</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Domke, Grant M.</origin>
+        <origin>Walters, Brian F.</origin>
+        <origin>Giebink, Courtney L.</origin>
+        <origin>Greenfield, Eric J.</origin>
+        <origin>Smith, James E.</origin>
+        <origin>Nichols, Michael C.</origin>
+        <origin>Knott, Jon A.</origin>
+        <origin>Ogle, Stephen M.</origin>
+        <origin>Coulston, John W.</origin>
+        <origin>Steller, John</origin>
+        <pubdate>2023</pubdate>
+        <title>Greenhouse gas emissions and removals from forest land, woodlands, urban trees, and harvested wood products in the United States, 1990-2021</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Resource Bulletin</sername>
+          <issue>WO-101</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Washington, DC</pubplace>
+          <publish>U.S. Department of Agriculture, Forest Service, Washington Office</publish>
+        </pubinfo>
+        <othercit>10 p.</othercit>
+        <onlink>https://doi.org/10.2737/WO-RB-101</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Environmental Protection Agency [U.S. EPA]</origin>
+        <pubdate>2023</pubdate>
+        <title>Inventory of U.S. greenhouse gas emissions and sinks: 1990–2021</title>
+        <geoform>document</geoform>
+        <serinfo>
+          <sername>U.S. Environmental Protection Agency</sername>
+          <issue>430-R-23-002</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Washington, DC</pubplace>
+          <publish>U.S. Environmental Protection Agency</publish>
+        </pubinfo>
+        <othercit>Accessed 13 April 2023</othercit>
+        <onlink>https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2021</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The methods and models used to compile these estimates use Intergovernmental Panel on Climate Change (IPCC) good practices for national greenhouse gas inventories (IPCC 2006):
+
+Eggleston, H. S.; Buendia, L.; Miwa, K.; Ngara, T.; Tanabe, K. 2006. 2006 IPCC guidelines for national greenhouse gas inventories. Hayama, Kanagawa, Japan: IPCC National Greenhouse Gas Inventories Programme, Intergovernmental Panel on Climate Change (IPCC).</attraccr>
+    </attracc>
+    <logic>The data are logically consistent. The consistency was verified as part of the quality assurance that occurred during data analysis.</logic>
+    <complete>Data are left blank if there were no observations.
+
+Estimates of net flux and emissions are provided through 2021. Estimates of carbon stocks and land areas are provided through 2022.
+
+Managed forest land for U.S. Territories is not currently included in Section 6.1 Representation of the U.S. Land Base of the “Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2021” (U.S. EPA 2023), therefore U.S. Territories are not included here.
+
+There is not sufficient Forest Inventory and Analysis data to include estimates of forest ecosystem carbon (C) stocks, C stock changes, or other emissions for the state of Hawaii at this time.
+
+Area estimates of land representation in the current Inventory (U.S. EPA 2023) include the state of Hawaii and more resolved land use conversions for the states of Alaska and Wyoming, so there are differences in the area estimates reported in this package and those reported in Section 6.1 Representation of the U.S. Land Base in the U.S. EPA inventory report (2023).
+
+Estimates for each state may not be available for every state-level table. This may be due to the resolution of the available data, a lack of observations of the particular land use category or land use conversion category, or there was insufficient data.
+
+The disaggregated estimates will not sum to the national total due to independent rounding.
+
+The Pacific Coast region in the estimates of C stocks, C stock changes, and area by region and ownership group on Forest Land Remaining Forest Land includes Coastal Alaska only. There is not sufficient Forest Inventory and Analysis data in Interior Alaska to determine ownership at this time.
+
+The forest ecosystem C stocks and stock changes on Forest Land Remaining Forest Land, Land Converted to Forest Land, and Forest Land Converted to Land do not include trees on non-forest land (e.g., agroforestry systems and settlement areas).
+
+Negative values indicate net C uptake (i.e., a net removal of C from the atmosphere).
+
+
+U.S. Environmental Protection Agency [U.S. EPA]. 2023. Inventory of U.S. greenhouse gas emissions and sinks: 1990–2021. EPA 430-R-23-002. Washington, DC: U.S. Environmental Protection Agency. https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2021 (accessed 13 April 2023)</complete>
+    <lineage>
+      <method>
+        <methdesc>Carbon (C) stocks and net flux on Forest Land Remaining Forest Land, Woodlands Remaining Woodlands, Land Converted to Forest Land, and Forest Land Converted to Land; Area of Land Use and Land Use Change of the Managed Land Base:
+
+Estimates of ecosystem C and areas of land use/land use change are based on data from the network of annual national forest inventory (NFI) plots established and measured by the Forest Inventory and Analysis (FIA) program within the USDA Forest Service; either direct measurements or variables from the NFI are the basis for estimating metric tons of C per hectare in forest ecosystem C pools (i.e., above- and belowground biomass, dead wood, litter, and soil carbon) and area of land use categories. Field data collection and data compilation/estimation were done using established FIA protocols. FIA data as well as a library of field guides and database documentation are available online (FIA Data Mart 2022, USDA Forest Service 2022a, USDA Forest Service 2022b).
+
+For the conterminous U.S., FIA plot-level estimates are used to inform land area (by use) and stand age transition matrices across time which can be summed annually for an estimate of forest C stock change for Forest Land Remaining Forest Land, Land Converted to Forest Land, and Forest Land Converted to Land. A gain-loss approach was used to compile estimates in Alaska. See Annex 3.13 in “Inventory of U.S. Greenhouse Gas Emissions and Sinks: 1990-2021" (U.S. EPA 2023) for detailed methods descriptions and citations for specific methods and models.
+
+
+Carbon dioxide (CO₂) and non-carbon dioxide emissions from forest fires and forest area burned:
+
+The estimated CO₂ and non-CO₂ emissions from forest fires are calculated consistent with IPCC (2006) methodology, which includes a combination of U.S.-specific data on forest area burned, fuel, consumption, and emission. Annual estimates were calculated by the Wildland Fire Emissions Inventory System (French et al. 2011, 2014) with area burned based on Monitoring Trends in Burn Severity (MTBS) or MODIS burned area mapping (Giglio et al. 2015, 2018). See Annex 3.13 in U.S. EPA (2023) for detailed methods descriptions and citations for specific methods and models.
+
+
+Non-carbon dioxide (CO₂) emissions from drained organic soils:
+
+The estimated emissions from drained organic soils on forest lands follow IPCC (2006) methodology, which includes quantifying the area of forest land on drained organic soils using FIA plot measurements and using default estimates of emissions provided in the 2013 supplement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories: Wetlands (IPCC 2014). See the subsection CO₂, methane (CH₄), and nitrous oxide (N₂O) Emissions from Drained Organic Soils under section Forest Land Remaining Forest Land in the Land Use, Land-Use Change, and Forestry chapter (chapter 6) in U.S. EPA (2023) for detailed methods descriptions and citations for specific methods and models.
+
+
+Net flux in settlement trees:
+
+Estimates of net C flux from trees in Settlements Remaining Settlements are compiled with an analysis of the per unit area of tree cover. Three types of data are required: the settlement area, percent tree cover in the settlement area, and the carbon sequestration density per unit area of tree cover. See the section on Settlements Remaining Settlements in the Land Use, Land-Use Change, and Forestry chapter (chapter 6) in U.S. EPA (2023) for detailed methods descriptions and citations for specific methods and models.
+
+
+Quantitative Uncertainty:
+
+The uncertainty range of carbon flux estimates were predicted through a combination of sample-based and model-based uncertainty for a 95 percent confidence interval, IPCC Approach 1 (IPCC 2006). The uncertainty range of non-CO₂ emissions from forest fires were predicted by Monte Carlo Stochastic Simulation for a 95 percent confidence interval, IPCC Approach 2 (IPCC 2006). See Annex 3.13 in U.S. EPA (2023) for detailed methods descriptions and citations for specific methods and models.</methdesc>
+        <methtype>Field</methtype>
+        <methcite>
+          <citeinfo>
+            <origin>Eggleston, H. S.</origin>
+            <origin>Buendia, L.</origin>
+            <origin>Miwa, K.</origin>
+            <origin>Ngara, T.</origin>
+            <origin>Tanabe, K.</origin>
+            <pubdate>2006</pubdate>
+            <title>2006 IPCC guidelines for national greenhouse gas inventories</title>
+            <geoform>document</geoform>
+            <pubinfo>
+              <pubplace>Hayama, Kanagawa, Japan</pubplace>
+              <publish>IPCC National Greenhouse Gas Inventories Programme, Intergovernmental Panel on Climate Change (IPCC)</publish>
+            </pubinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>French, Nancy H.F.</origin>
+            <origin>de Groot, William J.</origin>
+            <origin>Jenkins, Liza K.</origin>
+            <origin>Rogers, Brendan M.</origin>
+            <origin>Alvarado, Ernesto</origin>
+            <origin>Amiro, Brian</origin>
+            <origin>De Jong, Bernardus</origin>
+            <origin>Goetz, Scott</origin>
+            <origin>Hoy, Elizabeth</origin>
+            <origin>Hyer, Edward</origin>
+            <origin>Keane, Robert</origin>
+            <origin>Law, B.E.</origin>
+            <origin>McKenzie, Donald</origin>
+            <origin>McNulty, Steven G.</origin>
+            <origin>Ottmar, Roger</origin>
+            <origin>Perez-Salicrup, Diego R.</origin>
+            <origin>Randerson, James</origin>
+            <origin>Robertson, Kevin M.</origin>
+            <origin>Turetsky, Merritt</origin>
+            <pubdate>2011</pubdate>
+            <title>Model comparisons for estimating carbon emissions from North American wildland fire</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Journal of Geophysical Research</sername>
+              <issue>116(G4): G00K05</issue>
+            </serinfo>
+            <othercit>21 p.</othercit>
+            <onlink>https://doi.org/10.1029/2010JG001469</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>French, Nancy H.F.</origin>
+            <origin>McKenzie, Donald</origin>
+            <origin>Erickson, Tyler</origin>
+            <origin>Koziol, Benjamin</origin>
+            <origin>Billmire, Michael</origin>
+            <origin>Endsley, K.</origin>
+            <origin>Scheinerman, Naomi K.Y.</origin>
+            <origin>Jenkins, Liza</origin>
+            <origin>Miller, Mary E.</origin>
+            <origin>Ottmar, Roger</origin>
+            <origin>Prichard, Susan</origin>
+            <pubdate>2014</pubdate>
+            <title>Modeling regional-scale wildland fire emissions with the wildland fire emissions information system</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Earth Interactions</sername>
+              <issue>18(16): 1-26</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1175/ei-d-14-0002.1</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Giglio, Louis</origin>
+            <origin>Boschetti, Luigi</origin>
+            <origin>Roy, David P.</origin>
+            <origin>Humber, Michael L.</origin>
+            <origin>Justice, Christopher O.</origin>
+            <pubdate>2018</pubdate>
+            <title>The Collection 6 MODIS burned area mapping algorithm and product</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Remote Sensing of Environment</sername>
+              <issue>217: 72-85</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1016/j.rse.2018.08.005</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Hiraishi, T.</origin>
+            <origin>Krug, T.</origin>
+            <origin>Tanabe, K.</origin>
+            <origin>Srivastava, N.</origin>
+            <origin>Baasansuren, J.</origin>
+            <origin>Fukuda, M.</origin>
+            <origin>Troxler, T. G.</origin>
+            <pubdate>2014</pubdate>
+            <title>2013 Supplement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories: Wetlands</title>
+            <geoform>document</geoform>
+            <pubinfo>
+              <pubplace>Switzerland</pubplace>
+              <publish>Intergovernmental Panel on Climate Change (IPCC)</publish>
+            </pubinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection Agency [U.S. EPA]</origin>
+            <pubdate>2023</pubdate>
+            <title>Inventory of U.S. greenhouse gas emissions and sinks: 1990–2021</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>U.S. Environmental Protection Agency</sername>
+              <issue>430-R-23-002</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <othercit>Accessed 13 April 2023</othercit>
+            <onlink>https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks-1990-2021</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Domke, Grant M.</origin>
+            <origin>Walters, Brian F.</origin>
+            <origin>Giebink, Courtney L.</origin>
+            <origin>Greenfield, Eric J.</origin>
+            <origin>Smith, James E.</origin>
+            <origin>Nichols, Michael C.</origin>
+            <origin>Knott, Jon A.</origin>
+            <origin>Ogle, Stephen M.</origin>
+            <origin>Coulston, John W.</origin>
+            <origin>Steller, John</origin>
+            <pubdate>2023</pubdate>
+            <title>Greenhouse gas emissions and removals from forest land, woodlands, urban trees, and harvested wood products in the United States, 1990-2021</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Resource Bulletin</sername>
+              <issue>WO-101</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Washington Office</publish>
+            </pubinfo>
+            <othercit>10 p.</othercit>
+            <onlink>https://doi.org/10.2737/WO-RB-101</onlink>
+          </citeinfo>
+        </methcite>
+      </method>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Giglio, Louis</origin>
+            <origin>Justice, Christopher O.</origin>
+            <origin>Boschetti, Luigi</origin>
+            <origin>Roy, David P.</origin>
+            <pubdate>2015</pubdate>
+            <title>MCD64A1 MODIS/Terra+Aqua Burned Area Monthly L3 Global 500m SIN Grid V006</title>
+            <geoform>raster digital data</geoform>
+            <pubinfo>
+              <pubplace>Sioux Falls, SD</pubplace>
+              <publish>NASA EOSDIS Land Processes Distributed Active Archive Center</publish>
+            </pubinfo>
+            <othercit>Accessed on 18 July 2022</othercit>
+            <onlink>https://doi.org/10.5067/MODIS/MCD64A1.006</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2001</begdate>
+              <enddate>2021</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>Giglio et al. (2015)</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>Geospatial data of areas burned by wildfire and date of occurrence.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>MTBS Project (USDA Forest Service/U.S. Geological Survey)</origin>
+            <pubdate>202104</pubdate>
+            <title>MTBS Data Access: Fire Level Geospatial Data</title>
+            <geoform>database</geoform>
+            <othercit>Accessed on 21 April 2022</othercit>
+            <onlink>http://mtbs.gov/direct-download</onlink>
+          </citeinfo>
+        </srccite>
+        <srccitea>MTSB</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>Geospatial data of areas burned by wildfire and date of occurrence.</srccontr>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1990</begdate>
+              <enddate>2020</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USDA Forest Service</origin>
+            <pubdate>2022</pubdate>
+            <title>Forest Inventory and Analysis Database</title>
+            <geoform>tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>St. Paul, MN</pubplace>
+              <publish>USDA Forest Service, Northern Research Station</publish>
+            </pubinfo>
+            <othercit>Accessed on 7 October 2022</othercit>
+            <onlink>https://doi.org/10.2737/RDS-2001-FIADB</onlink>
+            <onlink>https://apps.fs.usda.gov/fia/datamart/datamart.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srccitea>FIA Data Mart (2022)</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>Forest inventory data at the plot-, condition-, and tree-level.</srccontr>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1990</begdate>
+              <enddate>2021</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USDA Forest Service</origin>
+            <pubdate>2022</pubdate>
+            <title>Forest Inventory and Analysis National Program, FIA library: Field Guides, Methods and Procedures</title>
+            <geoform>tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service</publish>
+            </pubinfo>
+            <othercit>Accessed on 7 October 2022</othercit>
+            <onlink>https://www.fia.fs.usda.gov/library/field-guides-methods-proc/</onlink>
+          </citeinfo>
+        </srccite>
+        <srccitea>USDA Forest Service (2022a)</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>FIA library: Field Guides, Methods and Procedures</srccontr>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1990</begdate>
+              <enddate>2021</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USDA Forest Service</origin>
+            <pubdate>2022</pubdate>
+            <title>Forest Inventory and Analysis National Program, FIA library: Database Documentation</title>
+            <geoform>tabular digital data</geoform>
+            <pubinfo>
+              <publish>U.S. Department of Agriculture, Forest Service</publish>
+            </pubinfo>
+            <othercit>Accessed on 7 October 2022</othercit>
+            <onlink>https://www.fia.fs.usda.gov/library/database-documentation/</onlink>
+          </citeinfo>
+        </srccite>
+        <srccitea>USDA Forest Service (2022b)</srccitea>
+        <typesrc>Online</typesrc>
+        <srccontr>FIA library: Database Documentation</srccontr>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1990</begdate>
+              <enddate>2021</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <overview>
+      <eaover>Below you will find a list and description of the files included in this data publication.
+
+ABBREVIATIONS USED
+
+MMT C = million metric tons of carbon
+MMT CO₂ eq. = million metric tons of carbon dioxide equivalent
+kt = kiloton
+
+
+
+VARIABLE DESCRIPTION FILES (2) 
+Folder: \Data
+
+1. _variable_descriptions.csv: Comma-separated values (CSV) file containing a list and description of variables found in all data files. (A description of these variables is also provided in the metadata below.)
+
+Columns include:
+
+Filename = name of data file
+Variable = name of variable
+Units = units (if applicable)	
+Precision = precision (if applicable)
+Description = description of variable
+
+2. carbon_pool_categories.csv: CSV file containing a list and description of the different carbon pool categories.
+
+Columns include:
+
+Carbon pool = name of carbon pool
+Description = description of carbon pool
+
+
+
+SUMMARY INFORMATION (1)
+Folder: \Data
+
+1. README.pdf: Portable Document Format file containing a description of the estimates package with notes pertaining to all tables and table-specific notes.
+
+
+
+DATA BY NFS REGION (3)
+Folder: \Data\By_NFSRegion
+
+1. FRF_area_by_ National_Forest_System_Region.csv: Area of forest land remaining forest land by National Forest System region (thousands of hectares)
+
+2. FRF_net_flux_by_National_Forest_System_Region.csv: Net CO₂ and C flux from forest pools in forest land remaining forest land by National Forest System region (MMT CO₂ Eq. and MMT C)
+
+3. FRF_stock_by_ National_Forest_System_Region.csv: C stocks in forest land remaining forest land by National Forest System region (MMT C)
+
+Variables included in these tables (varies per file):
+
+NFS Region = name of the National Forest System region
+
+Carbon Pools [net flux and stock tables only] = Forest ecosystem storage pools as defined by IPCC (2006): Total Forest Ecosystem, Aboveground biomass, Belowground biomass, Dead wood, Litter, and Soil organic carbon (SOC). (Detailed descriptions available in \Data\carbon_pool_categories.csv.)
+
+Net Flux Unit [net flux table only] = unit of the net flux estimate ("MMT CO2 Eq." or "MMT C")
+
+*YEAR* = estimate for specified YEAR (1990-2021 [net flux table] or 1990-2022 [stock and area tables])
+
+
+DATA BY REGION AND OWNERSHIP GROUP (3)
+Folder: \Data\By_Region_and_OG
+
+1. FRF_area_by_Region_and_OwnershipGroup.csv: Area of forest land remaining forest land by region and ownership group (thousands of hectares)
+
+2. FRF_net_flux_by_Region_and_OwnershipGroup.csv: Net CO₂ and C flux from forest pools in forest land remaining forest land by region and ownership group (MMT CO₂ Eq. and MMT C)
+
+3. FRF_stock_by_Region_and_OwnershipGroup.csv: C stocks in forest land remaining forest land by region and ownership group (MMT C)
+
+Variables included in these tables (varies per file):
+
+Region = name of the region: North (Connecticut, Delaware, Illinois, Indiana, Iowa, Maine, Maryland, Massachusetts, Michigan, Minnesota, Missouri, New Hampshire, New Jersey, New York, Ohio, Pennsylvania, Rhode Island, Vermont, West Virginia, Wisconsin); Pacific Coast (Coastal Alaska, California, Oregon, Washington); Rocky Mountain (Arizona, Colorado, Idaho, Kansas, Montana, Nebraska, Nevada, New Mexico, North Dakota, South Dakota, Utah, Wyoming); and South (Alabama, Arkansas, Florida, Georgia, Kentucky, Louisiana, Mississippi, North Carolina, Oklahoma, South Carolina, Tennessee, Texas, Virginia)
+
+Ownership Group = name of the ownership group, where “Public” is land owned by a Federal Government agency (e.g., Forest Service, Bureau of Land Management, Dept. of Defense, etc.) or a non-Federal government (e.g., state government or a local municipality), and “Private” is land owned by a non-governmental individual or entity (e.g., individual or family property, corporate, non-governmental conservation organization, Native American tribal land, etc.).
+
+Carbon Pools [net flux and stock tables only] = Forest ecosystem storage pools as defined by IPCC (2006): Total Forest Ecosystem, Aboveground biomass, Belowground biomass, Dead wood, Litter, and Soil organic carbon (SOC). (Detailed descriptions available in \Data\carbon_pool_categories.csv.)
+
+Net Flux Unit [net flux table only] = unit of the net flux estimate ("MMT CO2 Eq." or "MMT C")
+
+*YEAR* = estimate for specified YEAR (1990-2021 [net flux table] or 1990-2022 [stock and area tables])
+
+
+
+DATA BY STATE (14)
+Folder: \Data\By_State
+
+DOS:
+
+1. DOS_NonCO2_emissions_by_State.csv: Non-CO₂ emissions from drained organic forest soils by state (MMT CO₂ Eq.)
+
+Variables included in this table:
+
+State = name of state
+
+Source = gases emitted from drained organic soils where CH4 = methane, N2O = nitrous oxide, and Total = the sum of emissions from each of the gasses
+
+*YEAR* = emissions estimate for specified YEAR (1990-2021)
+
+
+FCL AND LCF NET FLUX:
+
+2. FCL_net_flux_by_State.csv: Net flux from forest C pools in forest land converted to land by Land Use Change category (MMT CO₂ Eq. and MMT C)
+
+3. LCF_net_flux_by_State.csv: Net flux from forest C pools in land converted to forest land by Land Use Change category (MMT CO₂ Eq. and MMT C)
+
+Variables included in these tables:
+
+State = name of state
+
+Land Use Conversion and Land Use/Carbon Pool = These two columns work in tandem to define the land conversion net flux estimates. The estimate may be for a single carbon pool (as described for the FRF and WRW NET FLUX tables) on a land use conversion category (e.g., Land Use Conversion = “Cropland Converted to Forest Land” and Land Use/Carbon Pool = “Litter”). There are also totals for each land use conversion category (e.g., Land Use Conversion = “Cropland Converted to Forest Land” and Land Use/Carbon Pool = “Total Cropland Converted to Forest Land”) and statewide totals for all conversion categories combined, both by pool (e.g., Land Use Conversion = “Totals (Pools) and Land Use/Carbon Pool = “Total Litter Flux”) and total of all pools (e.g., Land Use Conversion = “Totals (All) and Land Use/Carbon Pool = “Total Flux”).
+
+Net Flux Unit = unit of the net flux estimate ("MMT CO2 Eq." or "MMT C")
+
+*YEAR* = net flux estimate for specified YEAR (1990-2021)
+
+
+FIRE EMISSIONS:
+
+4. Fire_CO2_and_NonCO2_emissions_CO2eq_by_State.csv: CO₂ and non-CO₂ emissions from forest fires by state (MMT CO₂ Eq.)
+
+5. Fire_NonCO2_emissions_kt_by_State.csv: Non-CO₂ emissions from forest fires (kt)
+
+Variables included in these tables:
+
+State = name of state
+
+Gas = name of gas, where CO2 = carbon dioxide, CH4 = methane, CO = carbon monoxide, N2O = nitrous oxide, and NOx = nitrogen oxide
+
+*YEAR* = emissions estimate for specified YEAR (1990-2021)
+
+
+FIRE UNCERTAINTY:
+
+6. Fire_CO2_and_NonCO2_emissions_CO2eq_by_State_uncertainty_2021.csv: Quantitative uncertainty estimates of CO₂ and non-CO₂ emissions from forest fires, 2021 (MMT CO₂ Eq. and Percent)
+
+Variables included in this table:
+
+State = name of state
+
+Gas = name of gas, where CO2 = carbon dioxide, CH4 = methane, and N2O = nitrous oxide
+
+2021 Emission Estimate (MMT CO2 Eq.) = 2021 estimate of CO₂ or non-CO₂ emission from forest fires in MMT CO₂ eq.
+
+Lower Bound (MMT CO2 Eq.) = lower bound of the 95% confidence interval around the 2021 emission estimate in MMT CO₂ eq.
+
+Upper Bound (MMT CO2 Eq.) = upper bound of the 95% confidence interval around the 2021 emission estimate in MMT CO₂ eq.
+
+Lower Bound (Percent) = lower bound of the 95% confidence interval around the 2021 emission estimate in percent
+
+Upper Bound (Percent) = upper bound of the 95% confidence interval around the 2021 emission estimate in percent
+
+
+FIRE - FOREST AREA BURNED:
+
+7. Fire_forest_area_burned_by_State.csv: Area of forest land burned by forest fires (thousands of hectares)
+
+Variables included in this table:
+
+State = name of state
+
+*YEAR* = area of forest land burned by forest fire estimate for specified YEAR (1990-2021)
+
+
+FRF AND WRW NET FLUX:
+
+8. FRF_net_flux_by_State.csv: Net CO₂ and C flux from forest pools in forest land remaining forest land by state (MMT CO₂ Eq. and MMT C)
+
+9. WRW_net_flux_by_State.csv: Net CO₂ and C flux from woodland pools in woodlands remaining woodlands by state (MMT CO₂ Eq. and MMT C)
+
+Variables included in these tables:
+
+State = name of state
+
+Carbon Pools [net flux and stock tables only] = Forest ecosystem storage pools as defined by IPCC (2006): Total Forest Ecosystem, Aboveground biomass, Belowground biomass, Dead wood, Litter, and Soil organic carbon (SOC). (Detailed descriptions available in \Data\carbon_pool_categories.csv.)
+
+Net Flux Unit = unit of the net flux estimate ("MMT CO2 Eq." or "MMT C")
+
+*YEAR* = net flux estimate for specified YEAR (1990-2021)
+
+
+FRF NET FLUX UNCERTAINTY:
+
+10. FRF_net_flux_by_State_uncertainty_2021.csv: Quantitative uncertainty estimates for net CO₂ flux by state from forest land remaining forest land, 2021 (MMT CO₂ Eq. and Percent)
+
+Variables included in this table:
+
+State = name of state
+
+2021 Flux Estimate (MMT CO2 Eq.) = 2021 net carbon flux estimate in MMT CO₂ eq.
+
+Lower Bound (MMT CO2 Eq.) = lower bound of the 95% confidence interval around the 2021 net carbon flux estimate in MMT CO₂ eq.
+
+Upper Bound (MMT CO2 Eq.) = upper bound of the 95% confidence interval around the 2021 net carbon flux estimate in MMT CO₂ eq.
+
+Lower Bound (Percent) = lower bound of the 95% confidence interval around the 2021 net carbon flux estimate in percent
+
+Upper Bound (Percent) = upper bound of the 95% confidence interval around the 2021 net carbon flux estimate in percent
+
+
+FRF AND WRW STOCK:
+
+11. FRF_stock_by_State.csv: C stocks in forest land remaining forest land by state (MMT C)
+
+12. WRW_stock_by_State.csv: C stocks in woodlands remaining woodlands by state (MMT C)
+
+Variables included in these tables:
+
+State = name of state
+
+Carbon Pools [net flux and stock tables only] = Forest ecosystem storage pools as defined by IPCC (2006): Total Forest Ecosystem, Aboveground biomass, Belowground biomass, Dead wood, Litter, and Soil organic carbon (SOC). (Detailed descriptions available in \Data\carbon_pool_categories.csv.)
+
+*YEAR* = stock estimate for specified YEAR (1990-2022)
+
+
+LULUC AREA:
+
+13. LULUC_area_by_State.csv: Land use and land-use change area for the managed land base by state (thousands of hectares)
+
+Variables included in this table:
+
+State = name of state
+
+Land Use &amp; Land Use Change Categories = Land use and land use change categories which use the following abbreviations: F (Forest Land), C (Cropland), G (Grassland), O (Other Lands), S (Settlements), and W (Wetlands). Lands remaining in the same land-use category are identified with the land-use abbreviation given twice. Categories include:
+Total Forest Land = the sum of Forest Land Remaining Forest Land and Land Converted to Forest Land
+FF = Forest Land Remaining Forest Land
+Total Land Converted to Forest Land = the sum of all the land use change categories that convert land to forest land
+CF = Cropland Converted to Forest Land
+GF = Grassland Converted to Forest Land
+OF = Other Lands Converted to Forest Land
+SF = Settlements Converted to Forest Land
+WF = Wetland Converted to Forest Land
+Total Forest Land Converted to Land = the sum of all the land use change categories that convert forest land to land
+FC = Forest Land Converted to Cropland
+FG = Forest Land Converted to Grassland
+FO = Forest Land Converted to Other Lands
+FS = Forest Land Converted to Settlements
+FW = Forest Land Converted to Wetland
+Total Woodlands Remaining Woodlands = area of woodlands remaining woodlands
+
+*YEAR* = area estimate for specified YEAR (1990-2022)
+
+
+SETTLEMENT TREES:
+
+14. Settlement_tree_net_flux_by_State.csv: Net CO₂ and C flux from settlement trees in settlements remaining settlements (MMT CO₂ Eq. and MMT C)
+
+Variables included in this table:
+
+State = name of state
+
+Net Flux Unit = unit of the net flux estimate ("MMT CO2 Eq." or "MMT C")
+
+*YEAR* = net flux estimate for specified YEAR (1990-2021)</eaover>
+      <eadetcit>Domke, Grant M.; Walters, Brian F.; Giebink, Courtney L.; Greenfield, Eric J.; Smith, James E., Nichols, Michael C.; Knott, Jon A.; Ogle, Stephen M.; Coulston, John W.; Steller, John. 2023. Greenhouse gas emissions and removals from forest land, woodlands, urban trees, and harvested wood products in the United States, 1990-2021. Resources Bulletin. WO-101. Washington, DC: U.S. Department of Agriculture, Forest Service, Washington Office. 10 p. https://doi.org/10.2737/WO-RB-101</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Research and Development</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>240 West Prospect Road</address>
+          <city>Fort Collins</city>
+          <state>CO</state>
+          <postal>80526</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>see Contact Instructions</cntvoice>
+        <cntpos>Research Data Archivist</cntpos>
+        <cntinst>This contact information was current as of July 2023. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>RDS-2023-0020</resdesc>
+    <distliab>Metadata documents have been reviewed for accuracy and completeness. Unless otherwise stated, all data and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. However, neither the author, the Archive, nor any part of the federal government can assure the reliability or suitability of these data for a particular purpose. The act of distribution shall not constitute any such warranty, and no responsibility is assumed for a user's application of these data or related materials.
+
+The metadata, data, or related materials may be updated without notification. If a user believes errors are present in the metadata, data or related materials, please use the information in (1) Identification Information: Point of Contact, (2) Metadata Reference: Metadata Contact, or (3) Distribution Information: Distributor to notify the author or the Archive of the issues.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>CSV</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Comma-separated values file</formspec>
+          <filedec>Files zipped with 7-Zip 19.0</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2023-0020</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>PDF</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Portable Document Format file</formspec>
+          <filedec>Files zipped with 7-Zip 19.0</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2023-0020</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20230724</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Northern Research Station, Forest Inventory and Analysis Program</cntorg>
+          <cntper>Brian Walters</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1992 Folwell Ave.</address>
+          <city>St. Paul</city>
+          <state>MN</state>
+          <postal>55108</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>651-649-5135</cntvoice>
+        <cntpos>Forester</cntpos>
+        <cntemail>brian.f.walters@usda.gov</cntemail>
+        <cntinst>This contact information was current as original publication date. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,42 @@
+Package: forest_comparison
+Type: Package
+Title: Comparison Shopper's Guide to Forest Datasets
+Version: 1.0
+Authors@R: c(
+    person(given   = "Lucy G.",
+           family  = "Lee",
+           role    = c("aut", "cre", "cph"),
+           email   = "lucylee@fas.harvard.edu",
+           comment = c(ORCID = "0009-0001-8808-6560")),
+    person(given = "Luca L.",
+           family = "Morreale",
+           role = c("aut", "cre", "cph"),
+           email = "morrealell@si.edu",
+           comment = c(ORCID = "0000-0003-2023-9150"))
+    )
+Description: This project compiles data, conducts statistical
+  tests, and creates figures for the publications for the publication
+  Lee, L. G., Pasquarella, V. J., Glass, B., Morreale, L. L., 
+    Chung, N., and Thompson, J. R. 2025. A comparison shopper's guide to
+    forest datasets. In review.
+  Note that additional analysis was conducted on Google Earth Engine. 
+  See README for information.
+License: MIT
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    datasets,
+    dplyr,
+    foreign,
+    ggcorrplot,
+    ggpattern,
+    googledrive,
+    here,
+    psych,
+    readxl,
+    reshape2,
+    usmap,
+Depends: 
+    ggplot2,
+    magrittr
