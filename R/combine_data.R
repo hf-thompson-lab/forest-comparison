@@ -16,6 +16,9 @@
 #' Google Drive? It is recommended this parameter be set to
 #' FALSE unless the user wants to recreate a file directory
 #' in the same structure as the one used by the authors.
+#' Setting this parameter as FALSE also accesses googledrive
+#' in an unauthenticated state (i.e., you don't need to log in
+#' or give permissions to your account).
 #' 
 #' @return This function does not return any R object.
 
@@ -30,6 +33,13 @@ combine_data <- function(epa, fia, upload = c(TRUE, FALSE)) {
   out_fn <- 'lower48_v5-1_20240904.csv'
   
   ### GET ALL DATA FROM GOOGLE DRIVE ####
+  # Suspend authorization so no log in required
+  # If upload = TRUE then 
+  if (upload == FALSE){
+    googledrive::drive_deauth()
+    googledrive::drive_user()
+  }
+  
   # Get CSVs in Forest-Product-Comparison/datasets/csv_folder directory
   files <- googledrive::drive_ls(path = paste0('Forest-Product-Comparison/datasets/', csv_folder), type = 'csv')
   
@@ -71,7 +81,7 @@ combine_data <- function(epa, fia, upload = c(TRUE, FALSE)) {
   write.csv(out_df, merged_csv, row.names = F)
   print("Saved merged CSV to derived-data folder")
   
-  # Upload to drive
+  # Upload to drive -- note that this CANNOT be used when in an unauthenticated state
   if (upload == TRUE) {
     googledrive::drive_upload(media = merged_csv, path = 'Forest-Product-Comparison/datasets/lower48/')
   }
