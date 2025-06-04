@@ -9,7 +9,7 @@ This project contains the code that compiles data, conducts statistical tests,
 and creates figures for the following publication:
 
 Lee, L. G., Pasquarella, V. J., Glass, B., Morreale, L. L., 
-  Chung, N., and Thompson, J. R. A comparison shopper's guide to
+  Chung, N., Gao, X., and Thompson, J. R. A comparison shopper's guide to
   forest datasets. In review.
   
 It is structured as a research compendium to make the majority of the
@@ -123,4 +123,4 @@ analyses.
 
 ## Citation
 
-Lee, L.G., and Morreale, L. L. 2025. Comparison shopper's guide to forest datasets analysis code v1.0. https://github.com/hf-thompson-lab/forest-comparison
+Lee, L.G., and Morreale, L.L. 2025. Comparison shopper's guide to forest datasets analysis code v1.0. https://github.com/hf-thompson-lab/forest-comparison
