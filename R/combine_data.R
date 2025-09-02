@@ -41,7 +41,9 @@ combine_data <- function(epa, fia, upload = c(TRUE, FALSE)) {
   }
   
   # Get CSVs in Forest-Product-Comparison/datasets/csv_folder directory
-  files <- googledrive::drive_ls(path = paste0('Forest-Product-Comparison/datasets/', csv_folder), type = 'csv')
+  # Note: Using the link allows someone not logged into Google to access files, whereas
+  # using a text path to the folder produced an error
+  files <- googledrive::drive_ls(path = "https://drive.google.com/drive/u/0/folders/1U_VfSVFpdLIgk4dnqr5TIHQzshm0EZou", type = "csv")
   
   # Create list of dataframes with CSV data
   file_ids <- files$id                    # retrieve Google File IDs
