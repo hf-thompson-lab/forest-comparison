@@ -64,6 +64,14 @@ combine_data <- function(epa, fia, upload = c(TRUE, FALSE)) {
   # This table did not have a state column
   out_df[is.na(out_df$state), 'state'] <- 'CONUS'
   
+  # For some reason, now the CSVs are reading in with "state" moved to the end
+  # We want to make state the second column to match FIA and EPA datasets
+  out_df <- out_df[, c("dataset_id", "state", "X1985", "X1986", "X1987", "X1988", "X1989", "X1990",
+                       "X1991", "X1992", "X1993", "X1994", "X1995", "X1996", "X1997", "X1998", "X1999",
+                       "X2000", "X2001", "X2002", "X2003", "X2004", "X2005", "X2006", "X2007", "X2008",
+                       "X2009", "X2010", "X2011", "X2012", "X2013", "X2014", "X2015", "X2016", "X2017",
+                       "X2018", "X2019", "X2020", "X2021", "X2022")]
+  
   #### REPLACE EXISTING FIA DATA ####
   # Replace FIA rows with new FIA data from Luca
   `%!in%` <- Negate(`%in%`)     # Create 'not in' operator
