@@ -59,8 +59,8 @@ create_correlation_matrix <- function(df) {
                                                p.mat = pvals, insig="blank",
                                                colors = c("#a65628", "white", "#4daf4a"),
                                                lab = TRUE, lab_size = 2.5, type = "lower", tl.col = "black", tl.cex = 10, 
-                                               title = "Correlation of CONUS Tree / Forest Datasets, 2000-2019", 
+                                               title = "Correlation of CONUS Tree / Forest Data, 2000-2019", 
                                                legend.title = "")
-  ggsave(here::here("figures", "cormat_20241122.png"), correlation_matrix, width = 7)
+  ggsave(here::here("figures", "cormat_20250910.png"), correlation_matrix, width = 7)
   print("Saved correlation matrix to figures folder")
 }

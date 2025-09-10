@@ -72,7 +72,7 @@ create_state_trends_maps <- function(pct_df, trend_df) {
   # because the label is much longer than those of other datasets
   # So we use a separate dataframe that points reader to Table S2
   n_obs_fia <- data.frame(dataset_id = c('FIA_forest', 'FIA_timberland'),
-                          n = rep('See Table S2', times = 2),
+                          n = rep('See Table S1', times = 2),
                           stringsAsFactors = F)
   
   # Formatting the multipanel state trend figure for publication

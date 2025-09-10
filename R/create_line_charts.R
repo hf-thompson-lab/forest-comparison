@@ -204,7 +204,7 @@ create_line_charts <- function(df){
   # guides() is used to merge the point and line legends into one (hence the need to manually define point shapes for legend)
   combined_line_chart <- ggplot(na.omit(df_fig1), aes(x = year, y = km2, color = dataset_id, shape = as.factor(pntshp))) +
     geom_point(size = 1.1) + geom_line(linewidth = 0.5) +
-    scale_color_manual(values = light_colors2, name = "Dataset", labels = labels2) + 
+    scale_color_manual(values = light_colors2, name = "Data Product", labels = labels2) + 
     scale_shape_manual(values = pnt_values, labels = labels2, guide = "none") +
     scale_y_continuous(labels = scales::label_number(scale_cut = scales::cut_short_scale()), name = bquote("Area"~(km^2)), 
                        sec.axis = sec_axis(~ . / conus_land_area * 100, name = "Percent of Land Area")) +
@@ -212,7 +212,7 @@ create_line_charts <- function(df){
     guides(colour = guide_legend(override.aes = list(shape = leg.shps2, color = light_colors2), ncol = 1)) +
     theme(legend.text = element_text(size = 9))
   #combined_line_chart
-  ggsave(here::here("figures", "conus_linechart_fig1_20240904.png"), combined_line_chart,
+  ggsave(here::here("figures", "conus_linechart_fig1_20250910.png"), combined_line_chart,
          width = 6.5, height = 9)
   print('Saved Figure 1')
   
@@ -224,7 +224,7 @@ create_line_charts <- function(df){
   # Make the plot!
   g <- ggplot(na.omit(df_area), aes(x = year, y = km2, color = dataset_id, shape = as.factor(pntshp))) + 
     geom_point(size = 1.1) + geom_line(linewidth = 0.5) + 
-    scale_colour_manual(values = light_colors, name = 'Dataset', labels = leg_labels) +
+    scale_colour_manual(values = light_colors, name = 'Data Product', labels = leg_labels) +
     scale_shape_manual(values = pnt_values, labels = leg_labels, guide = 'none') +
     scale_y_continuous(labels = scales::label_number(scale_cut = scales::cut_short_scale()), name = bquote('Area'~(km^2))) + 
     xlab('Year') + theme_bw() + #dark_theme_bw() + 
@@ -232,7 +232,7 @@ create_line_charts <- function(df){
     theme(legend.text = element_text(size = 9)) + ggtitle('Tree and Forest Area Estimates: CONUS')
   #g
   
-  ggsave(here::here("figures", "conus_linechart_sq_km_figS1_20240904.png"), g, width = 6.5, height = 8.5)
+  ggsave(here::here("figures", "conus_linechart_sq_km_figS1_20250910.png"), g, width = 6.5, height = 8.5)
   print('Saved Figure S1')
   
   
@@ -245,13 +245,13 @@ create_line_charts <- function(df){
   # guides() is used to merge the point and line legends into one (hence the need to manually define point shapes for legend)
   g.pct <- ggplot(na.omit(df_pct), aes(x = year, y = pct, color = dataset_id, shape = as.factor(pntshp))) + 
     geom_point(size = 1.1) + geom_line(linewidth = 0.5) + 
-    scale_colour_manual(values = light_colors, name = 'Dataset', labels = leg_labels) +
+    scale_colour_manual(values = light_colors, name = 'Data Product', labels = leg_labels) +
     scale_shape_manual(values = pnt_values, labels = leg_labels, guide = 'none') +
     scale_y_continuous(name = 'Percent of Land Area') + xlab('Year') + theme_bw() + #dark_theme_bw() + 
     guides(colour = guide_legend(override.aes = list(shape = leg.shps, color = light_colors), ncol = 1)) + 
     ggtitle('Percent Tree and Forest Area Estimates: CONUS')
   # g.pct
   
-  ggsave(here::here("figures", "conus_linechart_pct_figS2_20240904.png"), g.pct, width = 6.5, height = 8.5)
+  ggsave(here::here("figures", "conus_linechart_pct_figS2_20250910.png"), g.pct, width = 6.5, height = 8.5)
   print('Saved Figure S2')
 }

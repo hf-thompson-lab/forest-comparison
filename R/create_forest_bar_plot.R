@@ -41,17 +41,17 @@ create_forest_bar_plot <- function(df, type = c("tree", "forest")) {
   df$change <- ifelse(df$sq_km > 15000, "Large increase",
                                         ifelse(df$sq_km > 0, "Increase",
                                                ifelse(df$sq_km < -15000, "Large decrease",
-                                                      ifelse(df$sq_km < 0, "Decrease", NA))))
+                                                      ifelse(df$sq_km < 0, "Decrease", "No change"))))
   df$change <- factor(df$change,
-                      levels = c("Large increase", "Increase", "Decrease", "Large decrease"))
+                      levels = c("Large increase", "Increase", "No change", "Decrease", "Large decrease"))
   
   # Set title and output file name depending on whether tree or forest
   if (type == "forest") {
-    plot_title <- "Change in forest area estimates by dataset: CONUS"
-    out_name <- "conus_forest_change_norm_20240904.png"
+    plot_title <- "Change from previous forest area estimate: CONUS"
+    out_name <- "conus_forest_change_norm_20250910.png"
   } else if (type == "tree") {
-    plot_title <- "Change in tree cover estimates by dataset: CONUS"
-    out_name <- "conus_tree_cover_change_norm_20240510.png"
+    plot_title <- "Change from previous tree cover estimate: CONUS"
+    out_name <- "conus_tree_cover_change_norm_20250910.png"
   }
   
   # Make the plot -- note that although scale_pattern_manual is used, it doesn't work well
@@ -62,10 +62,11 @@ create_forest_bar_plot <- function(df, type = c("tree", "forest")) {
     facet_wrap(~ dataset_id, ncol = 1, scales = "free_y", labeller = labeller(dataset_id = leg_labels)) +
     ggtitle(plot_title) +
     labs(x = "Year", y = "Change from previous measurement (sq km)") + theme_bw() +
-    scale_fill_manual(values = c("Large increase" = "#4daf4a", "Increase" = "#4daf4a", 
+    scale_fill_manual(values = c("Large increase" = "#4daf4a", "Increase" = "#4daf4a", "No change" = "grey80",
                                  "Decrease" = '#a65628', "Large decrease" = '#a65628'),
                       name = "Change") +
     ggpattern::scale_pattern_manual(values = c("Large increase" = "stripe", "Increase" = "none",
+                                               "No change" = "none",
                                                "Decrease" = "none", "Large decrease" = "stripe"),
                                     name = "Change") +
     scale_x_continuous(breaks = c(1986:2022), expand = c(0, 0)) +

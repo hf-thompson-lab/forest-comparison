@@ -195,7 +195,7 @@ create_alt_line_charts <- function(df){
   # guides() is used to merge the point and line legends into one (hence the need to manually define point shapes for legend)
   combined_line_chart <- ggplot(na.omit(df_fig1), aes(x = year, y = km2, color = dataset_id, shape = as.factor(pntshp))) +
     geom_point(size = 1.1) + geom_line(linewidth = 0.5) +
-    scale_color_manual(values = light_colors2, name = "Dataset", labels = labels2) + 
+    scale_color_manual(values = light_colors2, name = "Data Product", labels = labels2) + 
     scale_shape_manual(values = pnt_values, labels = labels2, guide = "none") +
     scale_y_continuous(labels = scales::label_number(scale_cut = scales::cut_short_scale()), name = bquote("Area"~(km^2)), 
                        sec.axis = sec_axis(~ . / conus_land_area * 100, name = "Percent of Land Area")) +
@@ -203,7 +203,7 @@ create_alt_line_charts <- function(df){
     guides(colour = guide_legend(override.aes = list(shape = leg.shps2, color = light_colors2), ncol = 1)) +
     theme(legend.text = element_text(size = 9))
   #combined_line_chart
-  ggsave(here::here("figures", "conus_linechart_fig1_alt_20250902.png"), combined_line_chart,
+  ggsave(here::here("figures", "conus_linechart_fig1_alt_20250910.png"), combined_line_chart,
          width = 6.5, height = 9)
   print('Saved alt Figure 1')
   
