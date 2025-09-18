@@ -61,23 +61,25 @@ This project is structured as follows:
 |
 ├─ results/                                              # Results of statistical tests
 |  └─ conus_and_state_trends_by_dataset_20240904.csv
-|  └─ conus_trend_counts_20240904.csv                    # Data for Fig 5
-|  └─ state_trend_counts_20240904.csv                    # Data for Fig 5
+|  └─ conus_trend_counts_20240904.csv                    # Data for Fig 4
+|  └─ state_trend_counts_20240904.csv                    # Data for Fig 4
 |
 ├─ figures/                                              # Figures
-|  └─ conus_forest_change_norm_20240904.png              # Fig 2
-|  └─ conus_linechart_fig1_20240904.png                  # Fig 1
-|  └─ conus_linechart_pct_figS2_20240904.png             # Fig S2
-|  └─ conus_linechart_sq_km_figS1_20240904.png           # Fig S1
-|  └─ conus_tree_cover_change_norm_20240510.png          # Fig 2
-|  └─ cormat_20241122.png                                # Fig 3
-|  └─ state_trends_2000-2019_20241216.png                # Fig 4
+|  └─ conus_forest_change_norm_fig2B.png                 # Fig 2B
+|  └─ conus_linechart_fig1.png                           # Fig 1
+|  └─ conus_linechart_figS3.png                          # Fig S3
+|  └─ conus_linechart_pct_figS2.png                      # Fig S2
+|  └─ conus_linechart_sq_km_figS1.png                    # Fig S1
+|  └─ conus_tree_cover_change_norm_fig2A.png             # Fig 2A
+|  └─ cormat_fig5.png                                    # Fig 5
+|  └─ state_trends_2000-2019_fig3.png                    # Fig 3
 |
 ├─ R/                                                    # Contains R functions
 |  └─ calc_lm.R                                          # Calculates linear models
 |  └─ calc_percent_forest.R                              # Calculates percent forest
 |  └─ combine_data.R                                     # Combines CSVs to form merged dataset
 |  └─ count_fia_obs.R                                    # Counts number of FIA observations used in trend analysis
+|  └─ create_alt_line_charts.R                           # Creates Fig S3, alt version of Fig 1
 |  └─ create_base_data.R                                 # Final preparation of data for use in R
 |  └─ create_correlation_matrix.R                        # Creates correlation matrix figure
 |  └─ create_forest_bar_plot.R                           # Creates bar plot of change from previous estimate
@@ -98,7 +100,7 @@ This project is structured as follows:
 |  └─ make_fig_3.R                                       # Makes Figure 3 (correlation matrix)
 |  └─ make_fig_4.R                                       # Makes Figure 4 (state trends maps)
 |  └─ make_fig_5_data.R                                  # Makes data for Figure 5 pie charts
-|  └─ make_figs_1_s1_s2.R                                # Makes Figures 1, S1, S2 (line charts)
+|  └─ make_figs_1_s1_s2.R                                # Makes Figures 1, S1, S2, S3 (line charts)
 |  └─ make_table_s2.R                                    # Makes Table S2 (# of FIA observations)
 |  └─ merge_data.R                                       # Merges CSVs
 |  └─ save_trend_summary_table.R                         # Saves table of summary of linear models
@@ -123,4 +125,4 @@ analyses.
 
 ## Citation
 
-Lee, L.G., and Morreale, L.L. 2025. Comparison shopper's guide to forest datasets analysis code v1.0. https://github.com/hf-thompson-lab/forest-comparison
+Lee, L.G., and Morreale, L.L. 2025. Comparison shopper's guide to forest datasets analysis code v1.1. https://github.com/hf-thompson-lab/forest-comparison
