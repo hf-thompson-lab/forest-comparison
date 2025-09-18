@@ -3,7 +3,7 @@
 #' @description
 #' This function counts the number of FIA observations in each state
 #' from 2000-2019, the period used for trend analysis. It saves a CSV
-#' which is Table S2 in the manuscript.
+#' which is Table S1 in the manuscript.
 #' 
 #' @param data The percent forest dataframe returned by calc_percent_forest()
 #' 
@@ -24,5 +24,5 @@ count_fia_obs <- function(data){
   
   # Save the result so it can be added to manuscript as Table S2
   write.csv(n_obs_fia, here::here("data", "derived-data", "n_obs_fia.csv"), row.names = F)
-  print("Saved number of FIA observations (Table S2)")
+  print("Saved number of FIA observations (Table S1)")
 }

@@ -1,7 +1,7 @@
 #' Create correlation matrix
 #' 
 #' @description
-#' Creates and saves the correlation matrix (Figure 3)
+#' Creates and saves the correlation matrix (Figure 5)
 #' 
 #' @param df Main dataframe returned by create_base_data()
 #' 
@@ -61,6 +61,6 @@ create_correlation_matrix <- function(df) {
                                                lab = TRUE, lab_size = 2.5, type = "lower", tl.col = "black", tl.cex = 10, 
                                                title = "Correlation of CONUS Tree / Forest Data, 2000-2019", 
                                                legend.title = "")
-  ggsave(here::here("figures", "cormat_20250910.png"), correlation_matrix, width = 7)
+  ggsave(here::here("figures", "cormat_fig5.png"), correlation_matrix, width = 7)
   print("Saved correlation matrix to figures folder")
 }

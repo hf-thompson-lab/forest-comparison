@@ -48,10 +48,10 @@ create_forest_bar_plot <- function(df, type = c("tree", "forest")) {
   # Set title and output file name depending on whether tree or forest
   if (type == "forest") {
     plot_title <- "Change from previous forest area estimate: CONUS"
-    out_name <- "conus_forest_change_norm_20250910.png"
+    out_name <- "conus_forest_change_norm_fig2B.png"
   } else if (type == "tree") {
     plot_title <- "Change from previous tree cover estimate: CONUS"
-    out_name <- "conus_tree_cover_change_norm_20250910.png"
+    out_name <- "conus_tree_cover_change_norm_fig2A.png"
   }
   
   # Make the plot -- note that although scale_pattern_manual is used, it doesn't work well

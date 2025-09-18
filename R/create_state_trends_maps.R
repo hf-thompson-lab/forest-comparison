@@ -2,10 +2,7 @@
 #' 
 #' @description
 #' This function creates and saves the multi-panel
-#' state trends maps (Figure 4). Can run with or
-#' without combining MODIS 1, 2, and 3 to verify
-#' that the results are the same before combining
-#' for final visualization.
+#' state trends maps (Figure 3).
 #' 
 #' @param pct_df Dataframe of percent forest
 #' from 2000-2019 returned by calc_percent_forest().
@@ -98,7 +95,7 @@ create_state_trends_maps <- function(pct_df, trend_df) {
           strip.text = element_text(size = 8),
           plot.margin = unit(c(0, 0, 0, 0), 'cm')) +
     ggtitle('Linear trend in percent forest/tree area, 2000-2019')
-  ggsave(here::here("figures", "state_trends_2000-2019_20241216.png"), 
+  ggsave(here::here("figures", "state_trends_2000-2019_fig3.png"), 
          inc.dec2, width = 6.5, height = 9)
-  print("Saved Figure 4 (state trends maps)")
+  print("Saved Figure 3 (state trends maps)")
 }

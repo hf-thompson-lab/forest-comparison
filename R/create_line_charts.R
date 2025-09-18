@@ -212,7 +212,7 @@ create_line_charts <- function(df){
     guides(colour = guide_legend(override.aes = list(shape = leg.shps2, color = light_colors2), ncol = 1)) +
     theme(legend.text = element_text(size = 9))
   #combined_line_chart
-  ggsave(here::here("figures", "conus_linechart_fig1_20250910.png"), combined_line_chart,
+  ggsave(here::here("figures", "conus_linechart_fig1.png"), combined_line_chart,
          width = 6.5, height = 9)
   print('Saved Figure 1')
   
@@ -232,7 +232,7 @@ create_line_charts <- function(df){
     theme(legend.text = element_text(size = 9)) + ggtitle('Tree and Forest Area Estimates: CONUS')
   #g
   
-  ggsave(here::here("figures", "conus_linechart_sq_km_figS1_20250910.png"), g, width = 6.5, height = 8.5)
+  ggsave(here::here("figures", "conus_linechart_sq_km_figS1.png"), g, width = 6.5, height = 8.5)
   print('Saved Figure S1')
   
   
@@ -252,6 +252,6 @@ create_line_charts <- function(df){
     ggtitle('Percent Tree and Forest Area Estimates: CONUS')
   # g.pct
   
-  ggsave(here::here("figures", "conus_linechart_pct_figS2_20250910.png"), g.pct, width = 6.5, height = 8.5)
+  ggsave(here::here("figures", "conus_linechart_pct_figS2.png"), g.pct, width = 6.5, height = 8.5)
   print('Saved Figure S2')
 }
